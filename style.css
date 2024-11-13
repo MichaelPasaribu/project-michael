@@ -34,11 +34,11 @@ body{
 .navbar .navbar-logo{
     font-size: 2rem;
     font-weight: 600;
-    color: #ffffff;
+    color: #ffc0c0;
 }
 
 .navbar .navbar-logo span{
-    color: aqua ;
+    color: rgba(76, 120, 241, 0.747) ;
 }
 
 .navbar .navbar-nav a {
@@ -151,8 +151,95 @@ body{
     color: rgb(255, 255, 255);
 }
 
+.about, .contact{
+    padding: 10rem 5% 1.4rem;
+}
+
+.about h2, .contact h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.about .row{
+    display: flex;
+}
+
+.about .row .about-img{
+    flex: 1 1 4.5rem;
+}
+
+.about .row .about-img img{
+    width: 100%;
+}
+
+.about .row .content{
+    flex: 1 1 35rem;
+    padding: 0 1rem;
+}
+
+.about .row .content h3{
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    font-weight: 300;
+}
+
+.about .row .content p{
+    margin-bottom: 0.8rem;
+    font-size: 1.1rem;
+    font-weight: 100;
+    line-height: 1.6;
+}
+
+.contact h2{
+    margin-bottom: 1rem;
+}
+
+.contact p{
+    text-align: center;
+    max-width: 30rem;
+    margin: auto;
+    Font-weight: 100;
+    line-height: 1.6;
+}
+
+.contact .row form{
+    flex: 1 1 35rem;
+    padding: 5rem 2rem;
+    text-align: center;
+}
+
+.contact .row form .input-group{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    background-color: #970f0f;
+    border: 1px solid #ffffff;
+    padding-left: 4rem;
+    
+}
+
+.contact .row form .input-group input{
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.7rem;
+    background: none;
+    color: #fff;
+}
+
+.contact .row form .btn{
+    margin-top: 3rem;
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-size: 1.6rem;
+    color: #fff;
+    background-color: #ca0000;
+    cursor: pointer;
+}
+
 footer{
-    background-color: #8d0f0f;
+    background-color: #770b0b;
     text-align: center;
     padding: 1rem 0 1rem;
     margin-top: 2rem;
@@ -164,7 +251,7 @@ footer .socials {
 
 footer .socials a{
     color: #ffffff;
-    margin: 1.2rem;
+    margin: 1.2rem 1.3rem;
 }
 
 footer .socials a:hover,footer .links a:hover{
